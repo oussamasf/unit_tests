@@ -12,6 +12,6 @@ test("using matcher is equal ", () => {
 
 test("null", () => {
   const truth = null;
-  expect(truth).toBeNull();
+
   expect(truth).not.toBeTruthy();
 });
