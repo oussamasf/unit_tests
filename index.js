@@ -4,8 +4,8 @@ const app = express();
 
 const PORT = process.env.PORT || 5555;
 
-app.get("/", function (req, res) {
-  res.send("Welcome!");
+app.get("/api", function (req, res) {
+  res.send({ a: "Welcome!" });
   res.status(200);
 });
 
